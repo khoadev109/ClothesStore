@@ -1,0 +1,13 @@
+C:\Users\Admin\Desktop\ConsoleApp1\ConsoleApp1\obj\Debug\ClothesStore.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Admin\Desktop\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\Admin\Desktop\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Admin\Desktop\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Admin\Desktop\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Admin\Desktop\ClothesStore\ClothesStore\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Admin\Desktop\ClothesStore\ClothesStore\bin\Debug\ConsoleApp1.exe
+C:\Users\Admin\Desktop\ClothesStore\ClothesStore\bin\Debug\ConsoleApp1.pdb
+C:\Users\Admin\Desktop\ClothesStore\ClothesStore\obj\Debug\ClothesStore.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\ClothesStore\ClothesStore\obj\Debug\ClothesStore.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\ClothesStore\ClothesStore\obj\Debug\ConsoleApp1.exe
+C:\Users\Admin\Desktop\ClothesStore\ClothesStore\obj\Debug\ConsoleApp1.pdb
