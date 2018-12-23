@@ -394,15 +394,16 @@ namespace ClothesStore
 
         private bool CheckExistClothesInStock(int clothesId, int colorId, int sizeId, int quantity)
         {
-            if (_dataProvider.stocks.GetAll().Count == 0)
+            var inputClothesStock = _dataProvider.stocks.GetBy(x => x.QuantityType == QuantityType.Input);
+            if (inputClothesStock.Count == 0)
             {
-                return true;
+                return false;
             }
 
-            var clothes = _dataProvider.stocks.GetBy(x => x.ClothesId == clothesId && x.ColorId == colorId && x.SizeId == sizeId);
+            var existedClothesInStock = _dataProvider.stocks.GetBy(x => x.ClothesId == clothesId && x.ColorId == colorId && x.SizeId == sizeId);
 
-            var numberInputQuantity = clothes.Where(x => x.QuantityType == QuantityType.Input).Sum(x => x.Quantity);
-            var numberOutputQuantity = clothes.Where(x => x.QuantityType == QuantityType.Output).Sum(x => x.Quantity);
+            var numberInputQuantity = existedClothesInStock.Where(x => x.QuantityType == QuantityType.Input).Sum(x => x.Quantity);
+            var numberOutputQuantity = existedClothesInStock.Where(x => x.QuantityType == QuantityType.Output).Sum(x => x.Quantity);
 
             return numberInputQuantity - (numberOutputQuantity + quantity) >= 0;
         }
